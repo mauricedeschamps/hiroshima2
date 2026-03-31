@@ -4,8 +4,8 @@ const urlsToCache = [
   'index.html',
   'manifest.json',
   // アイコンはあなたの環境に合わせてパスを変更してください
-  // 'icons/icon-192x192.png',
-  // 'icons/icon-512x512.png'
+   'icons/icon-192x192.png',
+   'icons/icon-512x512.png'
 ];
 
 self.addEventListener('install', event => {
